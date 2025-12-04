@@ -8,6 +8,6 @@
 -keep class icu.nullptr.hidemyapplist.data.UpdateData$* { *; }
 
 -keep,allowoptimization class * extends androidx.preference.PreferenceFragmentCompat
--keepclassmembers class com.mxtech.videoplayer.databinding.**  {
+-keepclassmembers class org.frknkrc44.hma_oss.databinding.**  {
     public <methods>;
 }
